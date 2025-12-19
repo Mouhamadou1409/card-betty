@@ -2,83 +2,182 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Coumba Betty NIANG</title>
+<title>Coumba Betty NIANG | NSIA</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body {
-  margin:0;
-  font-family: Arial, sans-serif;
-  background:#0A2A5E;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  min-height:100vh;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0A2A5E;
 }
+
+.container {
+  max-width: 430px;
+  margin: auto;
+  background: #0A2A5E;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 30px 20px 60px;
+  text-align: center;
+  color: #fff;
+}
+
+.header img.logo {
+  width: 140px;
+}
+
 .card {
-  background:#fff;
-  border-radius:16px;
-  padding:24px;
-  max-width:420px;
-  width:100%;
-  box-shadow:0 20px 40px rgba(0,0,0,.3);
+  background: #fff;
+  margin: -40px 16px 20px;
+  border-radius: 24px;
+  padding: 60px 20px 24px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.25);
+  position: relative;
 }
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  object-fit: cover;
+  position: absolute;
+  top: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 h1 {
-  color:#0A2A5E;
-  margin-bottom:5px;
+  text-align: center;
+  color: #0A2A5E;
+  margin-bottom: 6px;
 }
+
 h2 {
-  font-size:15px;
-  color:#555;
-  margin-top:0;
+  text-align: center;
+  font-size: 14px;
+  color: #d4a017;
+  margin-top: 0;
 }
-p {
-  font-size:14px;
-  line-height:1.6;
+
+.info {
+  margin-top: 20px;
+  font-size: 14px;
 }
-a {
-  color:#0A2A5E;
-  text-decoration:none;
-  font-weight:600;
+
+.info p {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin: 12px 0;
 }
+
+.info span {
+  font-size: 18px;
+  color: #d4a017;
+}
+
+.info a {
+  color: #0A2A5E;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.map {
+  margin: 16px 0;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
 .btn {
-  display:block;
-  margin-top:12px;
-  background:#0A2A5E;
-  color:#fff;
-  padding:12px;
-  text-align:center;
-  border-radius:10px;
+  flex: 1;
+  padding: 12px;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  background: #d4a017;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 16px;
 }
 </style>
 </head>
 
 <body>
-<div class="card">
-  <h1>Coumba Betty NIANG</h1>
-  <h2>Directrice Commerciale / Sales Director</h2>
+<div class="container">
 
-  <p><strong>Email :</strong><br>
-  <a href="mailto:coumbabetty.niang@nsiaassurances.com">
-    coumbabetty.niang@nsiaassurances.com</a></p>
+  <div class="header">
+    <!-- Logo NSIA -->
+    <img src="https://www.nsiavieassurances.sn/wp-content/uploads/2021/03/logo-nsia.png" class="logo">
+  </div>
 
-  <p><strong>Email général :</strong><br>
-  <a href="mailto:nsiaeviesenegal@nsiaassurances.com">
-    nsiaeviesenegal@nsiaassurances.com</a></p>
+  <div class="card">
 
-  <p><strong>Téléphone :</strong><br>
-  <a href="tel:+221338896020">+221 33 889 60 20</a></p>
+    <!-- Photo -->
+    <img src="https://i.imgur.com/4Z7ZQYy.jpg" class="avatar">
 
-  <p><strong>Mobile :</strong><br>
-  <a href="tel:+221773336180">+221 77 363 71 80</a></p>
+    <h1>Coumba Betty NIANG</h1>
+    <h2>Directrice Commerciale / Sales Director</h2>
 
-  <p><strong>Adresse :</strong><br>
-  Mermoz Pyrotechnique N°75 A,<br>
-  Dakar, Sénégal</p>
+    <div class="info">
+      <p><span>✉️</span>
+        <a href="mailto:coumba.betty.niang@nsiassurances.com">
+          coumba.betty.niang@nsiassurances.com
+        </a>
+      </p>
 
-  <a class="btn" href="https://www.nsiavieassurances.sn" target="_blank">
-  Visiter le site NSIA
-  </a>
+      <p><span>📧</span>
+        <a href="mailto:nsiaeviesenegal@nsiassurances.com">
+          nsiaeviesenegal@nsiassurances.com
+        </a>
+      </p>
+
+      <p><span>☎️</span>
+        <a href="tel:+221338698720">+221 33 869 87 20</a>
+      </p>
+
+      <p><span>📱</span>
+        <a href="tel:+221773336180">+221 77 333 61 80</a>
+      </p>
+
+      <p><span>📍</span>
+        Mermoz Pyrotechnique N°75 A,<br>
+        Dakar, Sénégal
+      </p>
+    </div>
+
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps?q=Mermoz%20Pyrotechnique%20Dakar&output=embed"
+        width="100%" height="160" style="border:0;" allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="actions">
+      <a class="btn" href="tel:+221773336180">📞 Appeler</a>
+      <a class="btn" href="mailto:coumba.betty.niang@nsiassurances.com">✉️ Email</a>
+    </div>
+
+    <div class="footer">
+      NSIA Assurances Vie Sénégal
+    </div>
+
+  </div>
 </div>
 </body>
 </html>
